@@ -1,0 +1,51 @@
+/* 
+Post Styling
+*/
+.wp-media-buttons .mssc-button span.mssc-button-icon:before {
+	vertical-align: text-top;
+	font: 400 18px/1 dashicons;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	content: '\f111';
+}
+
+.mssc-iframe {
+	display: none;
+}
+
+.mssc-modal #TB_window .mssc-submit {
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
+	color: #FFF;
+}
+
+	.mssc-modal #TB_window {
+		overflow-y: scroll;
+	}
+	
+	.mssc-select-wrapper, .mssc-attr-wrapper {
+		width: 47%;
+		height: auto;
+		max-height: 100%;
+		margin-right: 6%;
+		display: inline-block;
+		vertical-align: top;
+		
+	}
+	
+	.mssc-attr-wrapper {
+		margin: 0;
+	}
+		
+		.mssc-attr-wrapper ul {
+			margin: 0;
+		}
+
+			.mssc-attr {
+				display: none;
+			}
+				
+				.mssc-attr-show {
+					display: block;
+				}
